@@ -6,4 +6,15 @@ Foi usado no projeto todos os assuntos abordados até a chegada do modulo do pro
 
 O objetivo é cada passo do desenvolvimento ser um commit no repositorio do projeto
 
-Projeto desenvolvido sem interface gráfica, sistema rodará em promt de comando.
+Projeto desenvolvido sem interface gráfica, sistema rodará em promt de comando.!
+
+[Projeto de tabuleiro de xadrez](chess-system-design.png)
+
+
+**Primeiro passo: Posição**
+Checklist:
+* Classe posição [public]
+* **Topicos de OOP**
+  * Encapsulamento
+  * Construtores
+  * ToString
