@@ -11,10 +11,19 @@ Projeto desenvolvido sem interface gráfica, sistema rodará em promt de comando
 [Projeto de tabuleiro de xadrez](chess-system-design.png)
 
 
-**Primeiro passo: Posição**
+## Primeiro passo: Posição
 Checklist:
 * Classe posição [public]
 * **Topicos de OOP**
   * Encapsulamento
   * Construtores
   * ToString
+
+## Implementando Tabuleiro e Peça
+Checklist:
+* Classes Peça e Tabuleiro [public]
+* **Topicos de OOP**
+  * Associação
+  * Encapsulamento / Modificiador de acesso
+* **Estruturas de dados**
+  * Matriz
