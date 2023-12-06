@@ -1,12 +1,12 @@
-# Desenvolvimento de sistema de xadrex
+# Desenvolvimento de sistema de xadrez
 
-Projeto desenvolvido dentro do curso de Java completo, do professor Nelio Alves, na plataforma Udemy
+Projeto desenvolvido dentro do curso de Java completo, do professor Nélio Alves, na plataforma Udemy
 
 Foi usado no projeto todos os assuntos abordados até a chegada do modulo do projeto.
 
-O objetivo é cada passo do desenvolvimento ser um commit no repositorio do projeto
+O objetivo é cada passo do desenvolvimento ser um commit no repositório do projeto
 
-Projeto desenvolvido sem interface gráfica, sistema rodará em promt de comando.!
+Projeto desenvolvido sem interface gráfica, sistema rodará em prompt de comando.!
 
 [Projeto de tabuleiro de xadrez](chess-system-design.png)
 
@@ -14,7 +14,7 @@ Projeto desenvolvido sem interface gráfica, sistema rodará em promt de comando
 ## Primeiro passo: Posição
 Checklist:
 * Classe posição [public]
-* **Topicos de OOP**
+* **Tópicos de OOP**
   * Encapsulamento
   * Construtores
   * ToString
@@ -22,8 +22,38 @@ Checklist:
 ## Implementando Tabuleiro e Peça
 Checklist:
 * Classes Peça e Tabuleiro [public]
-* **Topicos de OOP**
+* **Tópicos de OOP**
   * Associação
-  * Encapsulamento / Modificiador de acesso
+  * Encapsulamento / Modificador de acesso
 * **Estruturas de dados**
+  * Matriz
+
+## Camada Xadrez e impressão do tabuleiro
+
+Formato do tabuleiro
+
+8 [] [] [] [] [] [] [] []
+7 [] [] [] [] [] [] [] []
+6 [] [] [] [] [] [] [] []
+5 [] [] [] [] [] [] [] []
+4 [] [] [] [] [] [] [] []
+3 [] [] [] [] [] [] [] []
+2 [] [] [] [] [] [] [] []
+1 [] [] [] [] [] [] [] []
+   a  b  c  d  e  f  g  h
+
+Checklist:
+* Métodos: Tabuleiro.Peça(linha, coluna) e Tabuleiro.Peca(Position)
+* Enum Xadrez.cor
+* Classe Xadrez.PecaXadrez [public]
+* Classe Xadrez.PartidaXadrez [public]
+* Classe XadrezConsole.UI
+* **Tópicos OOP**
+  * Enumeradores
+  * Encapsulamento / Modificador de acesso
+  * Herança
+  * Downcasting
+  * Membros estáticos
+  * Padrão de camadas
+* **Estrutura de dados**
   * Matriz
