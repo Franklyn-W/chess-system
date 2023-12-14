@@ -68,3 +68,16 @@ Checklist:
 * **Tópicos OOP**
   * Exceções
   * Construtores (Uma String será retornada pela exception)
+
+# ChessException e ChessPosition
+Checklist:
+* Classe ChessException [public]
+* Classe ChessPosition [public]
+* Refatoração de ChessMatch.InitialSetup
+*  **Tópicos OOP**
+   *  Exceções
+   *  Encapsulamento
+   *  Construtores (Uma String será retornada pela exception)
+   *  Sobrescrita
+   *  Membros estáticos
+   *  Padrão de camadas
