@@ -69,7 +69,7 @@ Checklist:
   * Exceções
   * Construtores (Uma String será retornada pela exception)
 
-# ChessException e ChessPosition
+## ChessException e ChessPosition
 Checklist:
 * Classe ChessException [public]
 * Classe ChessPosition [public]
@@ -81,3 +81,12 @@ Checklist:
    *  Sobrescrita
    *  Membros estáticos
    *  Padrão de camadas
+
+## Alterando cores impressas no terminal
+Cor do terminal
+* Windows: Git Bash
+* Mac: Google > "osx terminal color"
+
+Checklist:
+* Colocar mais peças no tabuleiro
+* Distinguir as cores das peças no método UI.PrintPiece
