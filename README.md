@@ -13,7 +13,7 @@ Projeto desenvolvido sem interface gráfica, sistema rodará em prompt de comand
 
 ## Primeiro passo: Posição
 Checklist:
-* Classe posição [public]
+* Classe Position [public]
 * **Tópicos de OOP**
   * Encapsulamento
   * Construtores
@@ -21,7 +21,7 @@ Checklist:
 
 ## Implementando Tabuleiro e Peça
 Checklist:
-* Classes Peça e Tabuleiro [public]
+* Classes Piece e Board [public]
 * **Tópicos de OOP**
   * Associação
   * Encapsulamento / Modificador de acesso
@@ -35,11 +35,11 @@ Formato do tabuleiro
 ![Impressão do tabuleiro](image.png)
 
 Checklist:
-* Métodos: Tabuleiro.Peça(linha, coluna) e Tabuleiro.Peca(Position)
-* Enum Xadrez.cor
-* Classe Xadrez.PecaXadrez [public]
-* Classe Xadrez.PartidaXadrez [public]
-* Classe XadrezConsole.UI
+* Métodos: Board.Piece(row, column) e Board.Piece(Position)
+* Enum Chess.color
+* Classe Chess.ChessPiece [public]
+* Classe Chess.ChessMatch [public]
+* Classe ChessConsole.UI
 * **Tópicos OOP**
   * Enumeradores
   * Encapsulamento / Modificador de acesso
@@ -52,10 +52,19 @@ Checklist:
 
 ## Colocando as peças no tabuleiro
 Checklist:
-* Método: Tabuleiro.ColocarPeca(peça, posição)
-* Classes: Torre, Rei [public]
-* Método: PartidaXadrez.ConfigInicial
+* Método: Board.PlacePiece(piece, position)
+* Classes: Rook, King [public]
+* Método: ChessMarch.InitialConfig
 * **Tópicos OOP**
   * Herança
   * Sobrecarga
   * Polimorfismo (toString)
+
+## Implementando o BoardException e programação defensiva
+Checklist:
+* Classe BoardException [public]
+* Métodos: Board.PositionExists, Board.ThereIsAPiece
+* Implementação de programação defensiva nos métodos do Board
+* **Tópicos OOP**
+  * Exceções
+  * Construtores (Uma String será retornada pela exception)
