@@ -90,3 +90,15 @@ Cor do terminal
 Checklist:
 * Colocar mais peças no tabuleiro
 * Distinguir as cores das peças no método UI.PrintPiece
+
+## Movendo as peças
+Checklist:
+* Método Board.RemovePiece
+* Método UI.ReadChessPosition
+* Método ChessMatch.PerformChessMove
+  * Método ChessMatch.MakeMove
+  * Método ChessMatch.ValidadeSourcePosition
+* Criação da lógica basica no Program.java
+* **Tópicos OOP**
+  * Exceções
+  * Encapsulamento
